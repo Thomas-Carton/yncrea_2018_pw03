@@ -87,7 +87,7 @@ Inject the StudentDAO like this :
 
 When you implement the methods of this service, just call the corresponding methods of the DAO.
 
-###Wiring
+### Wiring
 * In the `yncrea.pw03.config` package, create a `AppConfig` class.
 * Annotate it with `@Configuration`
 * Annotate it with `@ComponentScan`
