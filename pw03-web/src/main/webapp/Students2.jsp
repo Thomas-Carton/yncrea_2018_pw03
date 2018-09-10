@@ -1,6 +1,6 @@
-<%@page import="yncrea.pw03.entity.Student, yncrea.pw03.entity.Course" contentType="text/html" pageEncoding="UTF-8" %>
+<%@page import="yncrea.pw03.config.entity.Student, yncrea.pw03.config.entity.Course" contentType="text/html" pageEncoding="UTF-8" %>
 <%@ page import="java.util.List" %>
-<%@ page import="yncrea.pw03.entity.Work" %>
+<%@ page import="yncrea.pw03.config.entity.Work" %>
 <%@ page import="java.util.stream.Collector" %>
 <%@ page import="java.util.stream.Collectors" %>
 <%! List<Student> students; %>

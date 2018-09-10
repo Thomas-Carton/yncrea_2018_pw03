@@ -1,4 +1,4 @@
-<%@page import="yncrea.pw03.entity.Student, java.util.List" contentType="text/html" pageEncoding="UTF-8" %>
+<%@page import="yncrea.pw03.config.entity.Student, java.util.List" contentType="text/html" pageEncoding="UTF-8" %>
 <%! List<Student> students; %>
 <%students = (List<Student>) request.getAttribute("students"); %>
 <html>

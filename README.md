@@ -28,7 +28,7 @@ For this module, you have to declare, in the `pom.xml` file, the following depen
 
 ### Entities
 #### Student
-In the `yncrea.pw03.entity` package, create a `Student` class.
+In the `yncrea.pw03.config.entity` package, create a `Student` class.
 
 This new class has the following attributes:
 * a string `lastname`
@@ -38,7 +38,7 @@ This new class has the following attributes:
 Declare 2 constructors, one with no argument and another with the name arguments.
 
 #### Course
-In the `yncrea.pw03.entity` package, create a `Course` class.
+In the `yncrea.pw03.config.entity` package, create a `Course` class.
 
 This new class has the following attributes:
 * a boolean `validated`
@@ -49,7 +49,7 @@ This new class has the following attributes:
 Declare 2 constructors, one with no argument and another a `Student` argument and a name.
 
 #### Work
-In the `yncrea.pw03.entity` package, create a `Work` class.
+In the `yncrea.pw03.config.entity` package, create a `Work` class.
 
 This new class has the following attributes:
 * a string `name`
@@ -59,7 +59,7 @@ This new class has the following attributes:
 Declare 2 constructors, one with no argument and another  with all arguments.
 
 ### First annotations
-* For each entity, just add an attribute `id` of type `long`. This attribute will have a setter but no getter.
+* For each yncrea.pw03.config.entity, just add an attribute `id` of type `long`. This attribute will have a setter but no getter.
 * Add the JPA annotations in your 3 entities, joints and cascades should be declared!
 
 ### DAOs
